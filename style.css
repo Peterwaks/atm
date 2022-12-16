@@ -1,0 +1,215 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.container{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    background: linear-gradient(60deg,rgb(9, 0, 128),rgb(107, 6, 107),rgb(221, 20, 154));
+    height: 100vh;
+    position: relative;
+  
+  
+   
+}
+.circle1{
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    background:linear-gradient(90deg,rgb(107, 6, 107),rgb(42, 164, 221));
+    position: absolute;
+    left:850px ;
+    filter: blur(4px);
+}
+.circle2{
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    background-color: rgb(243, 111, 133);
+    filter: blur(6px);
+    position: absolute;
+    left: 350px;
+    top: 450px;
+}
+.card{
+    width: 50%;
+    height: 68vh;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    background-color: rgba(255, 255, 255, 0.171);
+    position: absolute;
+    left: 300px;
+    padding: 40px;
+    border-radius: 20px;
+    top: 100px;
+    color: white;
+}
+.bank{
+    font-weight: 600;
+    font-size: 18px;
+    padding-bottom: 30px;
+}
+.num{
+    font-weight: 600;
+    font-size: 30px;
+}
+.t{
+    padding-left: 40px;
+}
+.date{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    margin-top: 60px;
+    margin-left: 30px;
+}
+.dat{
+    width: 30%;
+    font-size: 20px;
+}
+.d{
+    margin-left: 30px;
+}
+.circl{
+    width: 20%;
+    position: relative;
+    margin-left: 230px;
+}
+.circl1{
+width: 70px;
+height: 70px;
+background: rgba(255, 0, 0, 0.824);
+border-radius: 50%;
+position: absolute;
+}
+.circl2{
+    width: 70px;
+    height: 70px;
+    background: rgba(255, 255, 0, 0.824);
+    border-radius: 50%;
+    position: absolute;
+    left: 40px;
+    
+}
+.icon{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    color: white;
+    padding-bottom: 50px;
+}
+.icon1{
+    width: 20%;
+    margin-top: 30px;
+    margin-left: 30px;
+}
+.icon2{
+    width: 30%;
+    position: relative;
+    margin-left: 470px;
+    
+
+}
+.oval{
+    width:35px ;
+    height: 35px;
+    background: transparent;
+    border-radius: 50%;
+    border-right: 3px solid white;
+    position: absolute;
+    bottom: 10px;
+}
+.oval1{
+    width:20px ;
+    height: 25px;
+    border-radius: 50%;
+    border-right: 3px solid white;
+    position: absolute;
+    top:5px;
+    left: 9px;
+}
+.oval2{
+    width:15px ;
+    height: 17px;
+    border-radius: 50%;
+    border-right: 3px solid white;
+    position: absolute;
+    top: 3px;
+   left: px;
+}
+.box{
+    width: 60px;
+    height: 50px;
+    border: 3px solid white;
+    border-radius: 10px;
+    position: relative;
+    
+}
+.line{
+    width: 3px;
+    height: 47px;
+    position: absolute;
+    background: white;
+    left: 26px;
+}
+.line1{
+    background-color: white;
+    position: absolute;
+    height: 5px;
+    width: 16px;
+    top: 8px;
+    left: 13px;
+    border-radius: 2px;
+}
+.line2{
+    background-color: white;
+    position: absolute;
+    height: 5px;
+    width: 16px;
+    top: 28px;
+    left: 13px;
+    border-radius: 2px;
+}
+.line3{
+    background-color: white;
+    position: absolute;
+    height: 5px;
+    width: 16px;
+    border-radius: 2px;
+    top: 8px;
+    left:11px ;
+   
+}
+.line4{
+    background-color: white;
+    position: absolute;
+    height: 5px;
+    width: 16px;
+    border-radius: 2px;
+    top: 28px;
+    left: 11px;
+   
+}
+.line5{
+    background-color: white;
+    position: absolute;
+    height: 5px;
+    width: 10px; 
+    top: 19px;
+    border-radius: 2px;
+}
+.line6{
+    background-color: white;
+    position: absolute;
+    height: 5px;
+    width: 13px; 
+    top: 19px;
+    border-radius: 2px;
+}
